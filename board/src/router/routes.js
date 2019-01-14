@@ -1,12 +1,12 @@
 import Error404 from '@/pages/Error404';
-import TracePage from '@/pages/TracePage';
+import TopPage from '@/pages/TopPage';
 
 
 const main = [
   {
     path: '/',
-    name: 'TracePage',
-    component: TracePage
+    name: 'TopPage',
+    component: TopPage
   },
 ];
 
