@@ -2,7 +2,7 @@ import Swiper from '@/components/Swiper'
 import { mapState, mapActions, mapGetters } from 'vuex';
 
 export default {
-  name: 'TracePage',
+  name: 'TopPage',
   computed: {
     ...mapGetters('trace', [
       'charts',
@@ -21,6 +21,7 @@ export default {
             ]
           }
         </Swiper>
+
       </div>
     )
   }
