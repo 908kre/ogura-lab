@@ -5,6 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.6.3",
+    "@vue/cli": "^3.3.0",
     "@vue/cli-init": "^3.2.0",
     "axios": "^0.18.0",
     "buefy": "^0.7.1",
