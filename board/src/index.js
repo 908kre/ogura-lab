@@ -11,10 +11,7 @@ new Vue({
   store,
   router,
   components: { App },
-  render: function render(h) {
-    return ( 
-      <App/>
-    )
-  }
-});
+  render: h => h(App)
+})
+
 

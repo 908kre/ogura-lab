@@ -8,21 +8,5 @@ export default {
       'charts',
     ]),
   },
-  render: function render(h) {
-    return (
-      <div>
-        <Swiper>
-          {
-            [
-              <div slot='default'>abc</div>,
-              <div slot='default'>bbc</div>,
-              <div slot='default'>bbc</div>,
-              <div slot='default'>bbc</div>,
-            ]
-          }
-        </Swiper>
-
-      </div>
-    )
-  }
-};
+  components: { Swiper }
+}

@@ -22,11 +22,11 @@ services:
       - https_proxy
     volumes:
       - ./board:/srv
-    command: npm start
+    command: npm run start
 
   web:
     volumes:
       - ./web/nginx.dev.conf:/etc/nginx/nginx.conf
       - ./front/dist:/public/
     ports:
-      - "80:80"
+      - "$WEB_PORT:80"
